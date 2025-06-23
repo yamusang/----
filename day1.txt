@@ -1,0 +1,38 @@
+<<사용자 인터페이스>>
+인터페이스는 사용 방법. 컴퓨터와 사람사이의 소통방식
+-CLI : Command Line Interface(윈도우즈 명령프롬프트)
+
+C:\Users\C113>cd Downloads
+C:\Users\C113\Downloads>dir  (현재 디렉토리 내용)
+C:\Users\C113\Downloads>cd ..
+C:\Users\C113>cd..
+C:\Users>cd..
+C:\>cd Users\C113
+
+-GUI : Graphic User interface  (윈도우즈 파일탐색기)
+
+<< 저장장치의 폴더구조>>
+예시 => C:\Users\C113\Downloads
+
+1. C: 드라이브 이름(저장장치 이름)
+
+2. \Users\C113\Downloads 는 폴더 구조
+ 
+Users 하위(자식) 폴더는 C113의 자식은?
+
+
+정답 Downloads
+
+폴더 이름 사이의 구분 기호는 \(역슬래쉬)
+
+예시 => 문서의 폴더 구조 확인
+
+C:\Users\C113\Documents
+
+C:\Users\C113\Downloads> 위치에서
+C:\Users\C113\Desktop위치로 이동하려면
+
+방법 1: cd..
+           cd  Desktop
+
+방법 2: cd ..\Desktop
