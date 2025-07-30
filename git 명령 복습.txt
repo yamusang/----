@@ -1,0 +1,20 @@
+작성자 정보 설정                     git config 
+로컬저장소 초기화		  git init (개인 저장소 직접 만들기)
+스테이징                                git add
+커밋                                      git commit -m
+원격에 올리기                         git push <원격저장소이름> <브랜치이름>
+브랜치 이동                            git switch , git checkout
+브랜치 생성                            git switch -c
+원격저장소 확인                      git remote -v
+원격저장소 추가                      git remote add
+원격저장소 삭제                      git remote remove
+원격저장소 변경커밋 가져오기   git fetch <원격저장소이름> <브랜치이름>
+원격저장소 변경내용 가져오기   git pull <원격저장소이름> <브랜치이름>
+=> git push와 반대 동작
+원격저장소 복제해오기	  git clone (협업)
+원격저장소fork                        git fork   (협업)
+ㄴ(협업자가 아닐때, 나의 github으로 가져오기)
+
+-------------------------------------------------------------------
+1. 기능이 완료되면 PR -> 병합 완료 후 브랜치 삭제하기
+2. 오류 수정 -> 해결 브랜치는 별도로 만들어서 하기도 합니다. 이 때 브랜치 이름은 fix/이름
